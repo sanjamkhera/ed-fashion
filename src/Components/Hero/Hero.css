@@ -1,0 +1,119 @@
+.hero {
+  background: linear-gradient(to bottom, black, #927e3f);
+}
+
+.hero-top {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  margin: 5%;
+}
+
+.hero-top img {
+  border-radius: 50px;
+}
+
+.hero-middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+}
+
+.hero-left-middle {
+  width: 322px;
+  height: 700px;
+  text-align: justify;
+  display: inline-grid;
+}
+
+.hero-left-middle h2 {
+  color:white;
+  text-align: center;
+}
+
+.hero-left-middle p {
+  color: white;
+  height: 350px;
+}
+
+.hero-left-middle .hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-left-middle button {
+  width: 125px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 75px;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+.hero-right-middle {
+  width: 322px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right-middle img {
+  border-radius: 50px;
+}
+
+.hero-bottom {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10%;
+}
+
+.hero-left-bottom {
+  text-align: justify;
+  display: inline-grid;
+  justify-content: center;
+  padding: 50px;
+}
+
+.hero-left-bottom h2 {
+  color:white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-left-bottom p {
+  color: white;
+  height: 3px;
+  margin-bottom: 100px;  
+}
+
+.hero-left-bottom .hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-left-bottom button {
+  width: 125px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 75px;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+.hero-right-bottom img {
+  border-radius: 50px;
+}
